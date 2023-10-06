@@ -117,3 +117,63 @@ button {
   text-align: center;
   margin-bottom: 40px;
 }
+
+.container {
+  justify-content: center;
+  align-items: center;
+}
+
+table td {
+  border: 1px solid black;
+}
+
+.cont {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+table {
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  /* width: %; */
+}
+
+thead {
+  background-color: rgb(30, 29, 29);
+  color: white;
+  text-align: center;
+}
+
+td {
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.action-sec button {
+  padding: 10px 20px;
+  margin: 4px;
+  color: white;
+  border: 0px;
+  border-radius: 4px;
+}
+
+.details-btn {
+  background-color: #279eff;
+
+  /* 0079FF */
+}
+
+.edit-btn {
+  background-color: #6bcb77;
+}
+
+.delete-btn {
+  background-color: #ff1e1e;
+}
+
+.add-new {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}

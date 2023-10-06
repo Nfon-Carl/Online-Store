@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import Navbar from "./components/components";
+import Navbar from "./components/Navbar";
 import ProductList from "./components/template";
 import { Orbit } from "@uiball/loaders";
 import { DotSpinner } from "@uiball/loaders";
@@ -12,7 +12,7 @@ import {
   Routes,
 } from "react-router-dom";
 import Home from "./components/home";
-import ProductPage from "./components/productsPage";
+import Dashboard from "./components/dashboard";
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
           />
           <Route exact path="/home" element={<Home />} />
           <Route exact path="/" element={<Home />} />
-          {/* <Route exact path="/allProducts" element={<ProductPage />} /> */}
+          <Route exact path="/dashboard" element={<Dashboard />} />
         </Routes>
       </Router>
     </>
