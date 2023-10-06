@@ -1,5 +1,6 @@
 import { DotSpinner } from "@uiball/loaders";
 import useFetch from "./useFetch";
+import { Link } from "react-router-dom";
 
 const Dashboard = () => {
   const {
@@ -16,7 +17,9 @@ const Dashboard = () => {
         </div>
       )}
       <div className="add-new">
-        <button>Add New Product +</button>
+        <Link to="/dasboard/create">
+          <button>Add New Product +</button>
+        </Link>
       </div>
       <div className="cont">
         <table>
@@ -40,7 +43,9 @@ const Dashboard = () => {
                     <td>{item.description.slice(0, 50)} ...</td>
                     <td>
                       <div className="action-sec">
-                        <button className="details-btn">Details</button>
+                        <button className="details-btn">
+                          <a href={`/product-details/${item.id}`}>Details</a>
+                        </button>
                         <button className="edit-btn">Edit</button>
                         <button className="delete-btn">Delete</button>
                       </div>

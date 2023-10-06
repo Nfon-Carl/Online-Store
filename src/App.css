@@ -160,12 +160,16 @@ td {
 
 .details-btn {
   background-color: #279eff;
-
-  /* 0079FF */
+}
+.details-btn a {
+  color: white;
 }
 
 .edit-btn {
   background-color: #6bcb77;
+}
+.edit-btn a {
+  color: white;
 }
 
 .delete-btn {
@@ -176,4 +180,37 @@ td {
   display: flex;
   justify-content: center;
   margin-top: 30px;
+}
+
+.create-header {
+  text-align: center;
+}
+
+.create-form {
+  display: flex;
+  justify-content: center;
+}
+
+.create-form form input {
+  width: 438px;
+  height: 35px;
+  flex-shrink: 0;
+}
+
+.create-btn {
+  padding: 10px 20px;
+  margin: 4px;
+  color: white;
+  border: 0px;
+  border-radius: 4px;
+  background-color: #279eff;
+}
+
+.back-btn {
+  padding: 10px 25px;
+  margin: 4px;
+  color: white;
+  border: 0px;
+  border-radius: 4px;
+  background-color: #ff1e1e;
 }

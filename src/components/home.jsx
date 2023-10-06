@@ -22,7 +22,7 @@ const Home = () => {
             <DotSpinner size={50} speed={0.9} color="black" />
           </div>
         )}
-        {products && <ProductList products={products.slice(0, 8)} />}
+        {products && <ProductList products={products.slice(0, 17)} />}
       </div>
     </>
   );

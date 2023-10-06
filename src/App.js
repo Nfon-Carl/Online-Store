@@ -13,6 +13,8 @@ import {
 } from "react-router-dom";
 import Home from "./components/home";
 import Dashboard from "./components/dashboard";
+import CreateProd from "./components/createProd";
+import EditProd from "./components/editProd";
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
           <Route exact path="/home" element={<Home />} />
           <Route exact path="/" element={<Home />} />
           <Route exact path="/dashboard" element={<Dashboard />} />
+          <Route exact path="/dasboard/create" element={<CreateProd />} />
+          <Route exact path="/dashboard/edit" element={<EditProd />} />
         </Routes>
       </Router>
     </>

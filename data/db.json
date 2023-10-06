@@ -55,6 +55,25 @@
       "price": "120",
       "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia exercitationem consequatur quos animi fugit sunt nam omnis libero. Laudantium vero laborum magni quae, ex architecto delectus dolore! Sequi, vero fuga?",
       "id": "8"
+    },
+    {
+      "title": "Test Product",
+      "price": "200",
+      "description": "this is a test product",
+      "id": "86xRHFr"
+    },
+    {
+      "title": "benz",
+      "price": "1200",
+      "description": "forfma sd; asd asm dad asmdasd ",
+      "id": "NsINktJ"
+    },
+    {
+      "title": "qqwqwqwea",
+      "price": "asdasdasd",
+      "description": "asdasdasdasdasdaasdasd asd asda sdasd",
+      "image": "/images/mac.png",
+      "id": "YOxZhLw"
     }
   ]
 }
