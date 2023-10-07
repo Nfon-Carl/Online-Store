@@ -1,6 +1,6 @@
 import { DotSpinner } from "@uiball/loaders";
 import useFetch from "./useFetch";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Dashboard = () => {
   const {
@@ -9,6 +9,29 @@ const Dashboard = () => {
     Error,
   } = useFetch("http://localhost:8002/products");
   console.log(products);
+  const navigate = useNavigate();
+
+  const loadEdit = (id) => {
+    console.log(id);
+    navigate("/dashboard/product/edit/" + id);
+  };
+
+  const deleteProduct = (id) => {
+    if (window.confirm("Do you want to delete this Product ?")) {
+      fetch("http://localhost:8002/products/" + id, {
+        method: "DELETE",
+      })
+        .then((res) => {
+          window.location.reload();
+
+          alert("Removed successfully.");
+        })
+        .catch((err) => {
+          console.log(err.message);
+        });
+    }
+  };
+
   return (
     <>
       {isPending && (
@@ -46,8 +69,22 @@ const Dashboard = () => {
                         <button className="details-btn">
                           <a href={`/product-details/${item.id}`}>Details</a>
                         </button>
-                        <button className="edit-btn">Edit</button>
-                        <button className="delete-btn">Delete</button>
+                        <button
+                          className="edit-btn"
+                          onClick={() => {
+                            loadEdit(item.id);
+                          }}
+                        >
+                          Edit
+                        </button>
+                        <button
+                          className="delete-btn"
+                          onClick={() => {
+                            deleteProduct(item.id);
+                          }}
+                        >
+                          Delete
+                        </button>
                       </div>
                     </td>
                   </tr>

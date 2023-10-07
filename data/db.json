@@ -1,10 +1,10 @@
 {
   "products": [
     {
-      "title": "Whatever",
-      "image": "/images/camera.jpg",
-      "price": "553",
+      "title": "Watch",
+      "price": "599",
       "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia exercitationem consequatur quos animi fugit sunt nam omnis libero. Laudantium vero laborum magni quae, ex architecto delectus dolore! Sequi, vero fuga?",
+      "image": "/images/mac.png",
       "id": "1"
     },
     {
@@ -51,29 +51,24 @@
     },
     {
       "title": "Air Force One's",
-      "image": "/images/Airforce.jpg",
-      "price": "120",
+      "price": "220",
       "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia exercitationem consequatur quos animi fugit sunt nam omnis libero. Laudantium vero laborum magni quae, ex architecto delectus dolore! Sequi, vero fuga?",
+      "image": "/images/Airforce.jpg",
       "id": "8"
     },
     {
-      "title": "Test Product",
-      "price": "200",
-      "description": "this is a test product",
-      "id": "86xRHFr"
-    },
-    {
-      "title": "benz",
-      "price": "1200",
-      "description": "forfma sd; asd asm dad asmdasd ",
-      "id": "NsINktJ"
-    },
-    {
-      "title": "qqwqwqwea",
-      "price": "asdasdasd",
-      "description": "asdasdasdasdasdaasdasd asd asda sdasd",
+      "title": "HP Pavilon 2020",
+      "price": "2300",
+      "description": "HP pavilon made in 2023 this pc is designed to dahs ahsd a sdasjd a sdasd asd asd",
       "image": "/images/mac.png",
-      "id": "YOxZhLw"
+      "id": "DC7V8iS"
+    },
+    {
+      "title": "Dell latitude 13",
+      "price": "200",
+      "description": "this is a very fast pc which can ado a ask ad asdm asdma sdsd sad asds",
+      "image": "/images/mac.png",
+      "id": "Tvolx_u"
     }
   ]
 }

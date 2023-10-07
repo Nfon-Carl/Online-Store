@@ -31,7 +31,12 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/dashboard" element={<Dashboard />} />
           <Route exact path="/dasboard/create" element={<CreateProd />} />
-          <Route exact path="/dashboard/edit" element={<EditProd />} />
+          <Route
+            exact
+            path="dashboard/product/edit/:id"
+            element={<EditProd />}
+          />
+          {/* <Route exact path="/dashboard/product/edit" element={<CreateProd />} /> */}
         </Routes>
       </Router>
     </>
