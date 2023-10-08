@@ -1,0 +1,74 @@
+{
+  "products": [
+    {
+      "title": "Watch",
+      "price": "599",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia exercitationem consequatur quos animi fugit sunt nam omnis libero. Laudantium vero laborum magni quae, ex architecto delectus dolore! Sequi, vero fuga?",
+      "image": "/images/mac.png",
+      "id": "1"
+    },
+    {
+      "title": "Dell Lattitude 7014",
+      "image": "/images/mac.png",
+      "price": "120",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia exercitationem consequatur quos animi fugit sunt nam omnis libero. Laudantium vero laborum magni quae, ex architecto delectus dolore! Sequi, vero fuga?",
+      "id": "2"
+    },
+    {
+      "title": "Apple Watch Series 3",
+      "image": "/images/watch.png",
+      "price": "120",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia exercitationem consequatur quos animi fugit sunt nam omnis libero. Laudantium vero laborum magni quae, ex architecto delectus dolore! Sequi, vero fuga?",
+      "id": "3"
+    },
+    {
+      "title": "Apple Watch 2",
+      "image": "/images/watch2.png",
+      "price": "120",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia exercitationem consequatur quos animi fugit sunt nam omnis libero. Laudantium vero laborum magni quae, ex architecto delectus dolore! Sequi, vero fuga?",
+      "id": "4"
+    },
+    {
+      "title": "Macbook Air",
+      "image": "/images/camera.jpg",
+      "price": "120",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia exercitationem consequatur quos animi fugit sunt nam omnis libero. Laudantium vero laborum magni quae, ex architecto delectus dolore! Sequi, vero fuga?",
+      "id": "5"
+    },
+    {
+      "title": "Nike Dunk Low",
+      "image": "/images/shoe.png",
+      "price": "120",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia exercitationem consequatur quos animi fugit sunt nam omnis libero. Laudantium vero laborum magni quae, ex architecto delectus dolore! Sequi, vero fuga?",
+      "id": "6"
+    },
+    {
+      "title": "Nikon Camera",
+      "image": "/images/camera.jpg",
+      "price": "120",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia exercitationem consequatur quos animi fugit sunt nam omnis libero. Laudantium vero laborum magni quae, ex architecto delectus dolore! Sequi, vero fuga?",
+      "id": "7"
+    },
+    {
+      "title": "Air Force One's",
+      "price": "220",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia exercitationem consequatur quos animi fugit sunt nam omnis libero. Laudantium vero laborum magni quae, ex architecto delectus dolore! Sequi, vero fuga?",
+      "image": "/images/Airforce.jpg",
+      "id": "8"
+    },
+    {
+      "title": "HP Pavilon 2020",
+      "price": "2300",
+      "description": "HP pavilon made in 2023 this pc is designed to dahs ahsd a sdasjd a sdasd asd asd",
+      "image": "/images/mac.png",
+      "id": "DC7V8iS"
+    },
+    {
+      "title": "Dell latitude 13",
+      "price": "200",
+      "description": "this is a very fast pc which can ado a ask ad asdm asdma sdsd sad asds",
+      "image": "/images/mac.png",
+      "id": "Tvolx_u"
+    }
+  ]
+}
