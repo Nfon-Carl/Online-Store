@@ -11,13 +11,9 @@ const Home = () => {
     Error,
   } = useFetch("http://localhost:8002/products");
 
-  // function SearchBar({ onSearch }) {
-  const [searchQuery, setSearchQuery] = useState("");
-  const handleSearch = (e) => {
-    const query = e.target.value;
-    setSearchQuery(query);
-    // onSearch(query);
-  };
+  // function SearchBar
+  const [search, setSearch] = useState("");
+  console.log(search);
 
   return (
     <>
@@ -27,8 +23,9 @@ const Home = () => {
           <input
             type="text"
             placeholder="Search Category ..."
-            value={searchQuery}
-            onChange={handleSearch}
+            onChange={(e) => {
+              setSearch(e.target.value);
+            }}
           />
         </div>
         {isPending && (
@@ -36,7 +33,15 @@ const Home = () => {
             <DotSpinner size={50} speed={0.9} color="black" />
           </div>
         )}
-        {products && <ProductList products={products.slice(0, 17)} />}
+        {products && (
+          <ProductList
+            products={products.filter((item) => {
+              return search.toLocaleLowerCase() === ""
+                ? item
+                : item.title.toLocaleLowerCase().includes(search);
+            })}
+          />
+        )}
       </div>
     </>
   );
