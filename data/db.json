@@ -70,5 +70,12 @@
       "image": "/images/mac.png",
       "id": "Tvolx_u"
     }
+  ],
+  "users": [
+    {
+      "username": ",kk",
+      "userCart": "",
+      "boughtProducts": ""
+    }
   ]
 }
